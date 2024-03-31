@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4621A0B12BAFF14500A1E4FA /* RecorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621A0B02BAFF14500A1E4FA /* RecorderButton.swift */; };
 		465FB90F2BA9E5EC0093A2BF /* SummaryAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FB90E2BA9E5EC0093A2BF /* SummaryAIApp.swift */; };
-		465FB9112BA9E5EC0093A2BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FB9102BA9E5EC0093A2BF /* ContentView.swift */; };
+		465FB9112BA9E5EC0093A2BF /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FB9102BA9E5EC0093A2BF /* TranscriptView.swift */; };
 		465FB9132BA9E5ED0093A2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465FB9122BA9E5ED0093A2BF /* Assets.xcassets */; };
 		465FB9162BA9E5ED0093A2BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465FB9152BA9E5ED0093A2BF /* Preview Assets.xcassets */; };
+		465FB91E2BA9E6990093A2BF /* AudioRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FB91D2BA9E6990093A2BF /* AudioRecord.swift */; };
+		465FB9212BAAC7DC0093A2BF /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FB9202BAAC7DC0093A2BF /* AudioRecorder.swift */; };
+		46D9B40B2BB5B78700AF9945 /* TranscriptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B40A2BB5B78700AF9945 /* TranscriptStore.swift */; };
+		46D9B4112BB6A21600AF9945 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4102BB6A21600AF9945 /* ErrorWrapper.swift */; };
+		46D9B4132BB6A22F00AF9945 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4122BB6A22F00AF9945 /* ErrorView.swift */; };
+		46D9B4152BB6CF9F00AF9945 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4142BB6CF9F00AF9945 /* DetailView.swift */; };
+		46D9B4172BB85A1E00AF9945 /* RecorderTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4162BB85A1E00AF9945 /* RecorderTimer.swift */; };
+		46DB260D2BB3BA6500205E2F /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DB260C2BB3BA6500205E2F /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4621A0B02BAFF14500A1E4FA /* RecorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderButton.swift; sourceTree = "<group>"; };
 		465FB90B2BA9E5EC0093A2BF /* SummaryAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummaryAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465FB90E2BA9E5EC0093A2BF /* SummaryAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryAIApp.swift; sourceTree = "<group>"; };
-		465FB9102BA9E5EC0093A2BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		465FB9102BA9E5EC0093A2BF /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
 		465FB9122BA9E5ED0093A2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465FB9152BA9E5ED0093A2BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		465FB91D2BA9E6990093A2BF /* AudioRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecord.swift; sourceTree = "<group>"; };
+		465FB9202BAAC7DC0093A2BF /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		46D9B40A2BB5B78700AF9945 /* TranscriptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptStore.swift; sourceTree = "<group>"; };
+		46D9B4102BB6A21600AF9945 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		46D9B4122BB6A22F00AF9945 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		46D9B4142BB6CF9F00AF9945 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		46D9B4162BB85A1E00AF9945 /* RecorderTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderTimer.swift; sourceTree = "<group>"; };
+		46DB260C2BB3BA6500205E2F /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,10 @@
 		465FB90D2BA9E5EC0093A2BF /* SummaryAI */ = {
 			isa = PBXGroup;
 			children = (
+				46D9B4072BB55FF500AF9945 /* Views */,
+				465FB91C2BA9E6570093A2BF /* Models */,
 				465FB90E2BA9E5EC0093A2BF /* SummaryAIApp.swift */,
-				465FB9102BA9E5EC0093A2BF /* ContentView.swift */,
+				465FB9102BA9E5EC0093A2BF /* TranscriptView.swift */,
 				465FB9122BA9E5ED0093A2BF /* Assets.xcassets */,
 				465FB9142BA9E5ED0093A2BF /* Preview Content */,
 			);
@@ -65,6 +85,29 @@
 				465FB9152BA9E5ED0093A2BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		465FB91C2BA9E6570093A2BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				465FB9202BAAC7DC0093A2BF /* AudioRecorder.swift */,
+				465FB91D2BA9E6990093A2BF /* AudioRecord.swift */,
+				46DB260C2BB3BA6500205E2F /* SpeechRecognizer.swift */,
+				46D9B40A2BB5B78700AF9945 /* TranscriptStore.swift */,
+				46D9B4102BB6A21600AF9945 /* ErrorWrapper.swift */,
+				46D9B4162BB85A1E00AF9945 /* RecorderTimer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46D9B4072BB55FF500AF9945 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4621A0B02BAFF14500A1E4FA /* RecorderButton.swift */,
+				46D9B4122BB6A22F00AF9945 /* ErrorView.swift */,
+				46D9B4142BB6CF9F00AF9945 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465FB9112BA9E5EC0093A2BF /* ContentView.swift in Sources */,
+				46D9B4112BB6A21600AF9945 /* ErrorWrapper.swift in Sources */,
+				46DB260D2BB3BA6500205E2F /* SpeechRecognizer.swift in Sources */,
+				465FB9112BA9E5EC0093A2BF /* TranscriptView.swift in Sources */,
+				46D9B4172BB85A1E00AF9945 /* RecorderTimer.swift in Sources */,
+				46D9B4152BB6CF9F00AF9945 /* DetailView.swift in Sources */,
+				4621A0B12BAFF14500A1E4FA /* RecorderButton.swift in Sources */,
+				465FB91E2BA9E6990093A2BF /* AudioRecord.swift in Sources */,
+				46D9B40B2BB5B78700AF9945 /* TranscriptStore.swift in Sources */,
+				465FB9212BAAC7DC0093A2BF /* AudioRecorder.swift in Sources */,
+				46D9B4132BB6A22F00AF9945 /* ErrorView.swift in Sources */,
 				465FB90F2BA9E5EC0093A2BF /* SummaryAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -272,13 +324,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SummaryAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 96LBXG78A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow audio recording";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcibe user speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,13 +356,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SummaryAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 96LBXG78A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow audio recording";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcibe user speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
