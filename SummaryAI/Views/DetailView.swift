@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DetailView: View {
-    @Binding var record: AudioRecord
+    var record: AudioRecord
     @State private var presentRawText = false
     @Environment(\.dismiss) private var dismiss
     
@@ -75,5 +75,5 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(record: .constant(AudioRecord.sampleData[0]))
+    DetailView(record: (AudioRecord.sampleData[0]))
 }

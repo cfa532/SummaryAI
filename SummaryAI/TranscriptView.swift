@@ -13,7 +13,7 @@ struct TranscriptView: View {
     @State private var isRecording = false
     @State private var errorWrapper: ErrorWrapper? = nil
 
-    private let recorderTimer : RecorderTimer = RecorderTimer()
+    private let recorderTimer = RecorderTimer()
     private let speechRecognizer = SpeechRecognizer()
     
     var body: some View {
@@ -21,8 +21,8 @@ struct TranscriptView: View {
 //            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
 //            .padding(.top)
         NavigationStack {
-            List($store.records) { $record in
-                NavigationLink(destination: DetailView(record: $record)) {
+            List(store.records) { record in
+                NavigationLink(destination: DetailView(record: record)) {
                     Text(record.summary)
                 }
             }
@@ -46,7 +46,7 @@ struct TranscriptView: View {
                         return false
                     }
                 }
-//                speechRecognizer.startTranscribing()
+                speechRecognizer.startTranscribing()
             } else {
                 print("stop recordering")
                 speechRecognizer.stopTranscribing()
@@ -62,8 +62,9 @@ extension TranscriptView: TimerDelegate {
         
         // check if today's record exists
         let curDate = AudioRecord.recordDateFormatter.string(from: Date())
-        if var curRecord = store.records.first(where: {curDate == AudioRecord.recordDateFormatter.string(from: $0.recordDate)}) {
-            curRecord.transcript += speechRecognizer.transcript
+        if var index = store.records.firstIndex(where: {curDate == AudioRecord.recordDateFormatter.string(from: $0.recordDate)}) {
+//            curRecord.transcript += speechRecognizer.transcript    // doesn't work
+            store.records[index].transcript += speechRecognizer.transcript
         } else {
             let curRecord = AudioRecord(transcript: speechRecognizer.transcript, summary: "summary of the day")
             store.records.insert(curRecord, at: 0)

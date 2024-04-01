@@ -22,7 +22,7 @@ struct AudioRecord: Identifiable, Codable {
     
     static let recordDateFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateFormat = "YYYY/MM/dd"
+        formatter.dateFormat = "YY/MM/dd"
         return formatter
     }()
 }
