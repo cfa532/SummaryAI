@@ -14,7 +14,7 @@ struct SummaryAIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TranscriptView(store: store)
+            TranscriptView(store: store, errorWrapper: $errorWrapper)
             .task {
                 do {
                     try await store.load()

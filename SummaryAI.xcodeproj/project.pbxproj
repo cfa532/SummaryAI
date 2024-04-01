@@ -19,6 +19,7 @@
 		46D9B4132BB6A22F00AF9945 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4122BB6A22F00AF9945 /* ErrorView.swift */; };
 		46D9B4152BB6CF9F00AF9945 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4142BB6CF9F00AF9945 /* DetailView.swift */; };
 		46D9B4172BB85A1E00AF9945 /* RecorderTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4162BB85A1E00AF9945 /* RecorderTimer.swift */; };
+		46D9B4192BBBD75D00AF9945 /* Websocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9B4182BBBD75D00AF9945 /* Websocket.swift */; };
 		46DB260D2BB3BA6500205E2F /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DB260C2BB3BA6500205E2F /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		46D9B4122BB6A22F00AF9945 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		46D9B4142BB6CF9F00AF9945 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		46D9B4162BB85A1E00AF9945 /* RecorderTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderTimer.swift; sourceTree = "<group>"; };
+		46D9B4182BBBD75D00AF9945 /* Websocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Websocket.swift; sourceTree = "<group>"; };
+		46D9B41A2BBC0FAB00AF9945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		46DB260C2BB3BA6500205E2F /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +72,7 @@
 		465FB90D2BA9E5EC0093A2BF /* SummaryAI */ = {
 			isa = PBXGroup;
 			children = (
+				46D9B41A2BBC0FAB00AF9945 /* Info.plist */,
 				46D9B4072BB55FF500AF9945 /* Views */,
 				465FB91C2BA9E6570093A2BF /* Models */,
 				465FB90E2BA9E5EC0093A2BF /* SummaryAIApp.swift */,
@@ -96,6 +100,7 @@
 				46D9B40A2BB5B78700AF9945 /* TranscriptStore.swift */,
 				46D9B4102BB6A21600AF9945 /* ErrorWrapper.swift */,
 				46D9B4162BB85A1E00AF9945 /* RecorderTimer.swift */,
+				46D9B4182BBBD75D00AF9945 /* Websocket.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D9B4112BB6A21600AF9945 /* ErrorWrapper.swift in Sources */,
+				46D9B4192BBBD75D00AF9945 /* Websocket.swift in Sources */,
 				46DB260D2BB3BA6500205E2F /* SpeechRecognizer.swift in Sources */,
 				465FB9112BA9E5EC0093A2BF /* TranscriptView.swift in Sources */,
 				46D9B4172BB85A1E00AF9945 /* RecorderTimer.swift in Sources */,
@@ -327,6 +333,7 @@
 				DEVELOPMENT_TEAM = 96LBXG78A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SummaryAI/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow audio recording";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcibe user speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -359,6 +366,7 @@
 				DEVELOPMENT_TEAM = 96LBXG78A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SummaryAI/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow audio recording";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcibe user speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
