@@ -61,7 +61,8 @@ struct DetailView: View {
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
-                            dismiss()
+//                            dismiss()
+                            presentRawText.toggle()
                         }) {
                             Image(systemName: "xmark.circle")
                                 .font(.system(size: 20))

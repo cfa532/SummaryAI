@@ -18,9 +18,9 @@ struct TranscriptView: View {
     private let websocket = Websocket("ws://52.221.183.236:8505")
     
     var body: some View {
-        //        Text("Summary AI")
-        //            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-        //            .padding(.top)
+//        Text("Summary AI")
+//            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+//            .padding(.top)
         NavigationStack {
             List(store.records) { record in
                 NavigationLink(destination: DetailView(record: record)) {
